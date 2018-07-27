@@ -1,0 +1,126 @@
+/*
+* Quiz 
+* Pagina principal
+*/
+
+/***********
+     a
+***********/
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 60%;
+    top: 275px;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 10px 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transition: 0.4s;
+  }
+
+  a:hover {
+      background-color: rgba(255, 255, 255, 0.76);
+      color:black;
+  }
+
+
+
+/***********
+     b
+***********/
+
+  body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+/***********
+     c
+***********/
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.cuadro {
+    width: 350px;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+
+
+/***********
+     f
+***********/
+
+#footer {
+    height: 100px;
+    background-color: rgb(146, 51, 51);
+    margin: 0;
+}
+
+
+/***********
+     h
+***********/
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+#header {
+    height: 100px;
+    background-color: rgb(146, 51, 51);
+}
+
+
+/***********
+     l
+***********/
+
+#lugar1 {
+    background-image: url("../img/1.jpg");
+}
+
+#lugar2 {
+    background-image: url("../img/2.jpg");
+}
+
+#lugar3 {
+    background-image: url("../img/3.jpg");
+}
+
+#lugar4 {
+    background-image: url("../img/4.jpg");
+}
+
+#lugar5 {
+    background-image: url("../img/5.jpg");
+}
+
+#lugar6 {
+    background-image: url("../img/6.jpg");
+}
+
