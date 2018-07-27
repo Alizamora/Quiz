@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <div class="header"></div>
+    
+<div class="container">
+    
+
+    <h1>Hotel Villabosque</h1>
+
+    <!--Botones-->
+    <div class="botones">
+    <button type="button">Información</button>
+    <button type="button">Reservaciones</button>
+    </div>
+
+    <!--Formulario-->
+    <h2>Formulario de consulta</h2>
+
+    <form action="" class="frm">
+        <fieldset class="field">
+            <label for="nombre">Nombre (requerido)</label> <br/>
+            <input type="text" name="Nombre" id="nombre" value=""/>
+            <br/>
+            <br/>
+
+            <label for="correo">Correo electrónico (requerido)</label> <br/>
+            <input type="email" name="correo" id="correo" value=""/>
+            <br/>
+            <br/>
+
+            <label for="telefono">Teléfono (opcional)</label> <br/>
+            <input type="number" name="telefono" id="telefono" value=""/>
+            <br/>
+            <br/>
+
+            <label for="consulta">Consulta (requerido)</label> <br/>
+            <textarea name="consulta" id="consulta"></textarea>
+                <br/>
+                <br/>
+
+    
+            <input class="enviar" type="submit" name="enviar" value="Enviar"/> <br/> <br/>
+
+         </fieldset>
+
+    </form>
+    <br/>
+</div>
+
+</body>
+</html>
