@@ -1,14 +1,21 @@
+/*
+*Hoja de Estilo de pagina des
+*/
+
+
+
+
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
 body{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin: 0px;
-	border-top: 120px solid black;
-	border-bottom: 150px solid black;
-	font-family: Arial, Helvetica, sans-serif;
+	border-top: 50px solid rgb(146, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -18,7 +25,7 @@ h3 {
 .imagenprincipal{
     width: 1200px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .img1 {
@@ -39,12 +46,24 @@ p{
     text-align: justify;
     margin-bottom:20px; 
 }
-button{
-    background-color: #fffffe;
-    font-size: 20px;
-    border-radius: 8px;
+
+#boton {
+    text-decoration: none;
+    color: white;
+    background: rgb(146, 51, 51);
+    padding: 7px 20px;
+    margin: auto;
+    width: 20px;
 }
-button:hover{
-    background-color:black;
-    color:white;
+#boton:hover {
+    background: white;
+    color: rgb(146, 51, 51);
+}
+
+h1{
+    color: rgb(68, 64, 64);
+}
+
+h2{
+    color: rgb(99, 91, 91);
 }
